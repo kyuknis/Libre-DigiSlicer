@@ -1,0 +1,40 @@
+{
+  "id": "ultimaker3_extended",
+  "inherits": "ultimaker3",
+  "metadata": {
+    "author": "Ultimaker",
+    "category": "Ultimaker",
+    "file_formats": "text/x-gcode",
+    "has_machine_materials": true,
+    "has_machine_quality": true,
+    "has_materials": true,
+    "has_variant_materials": true,
+    "has_variants": true,
+    "machine_extruder_trains": {
+      "0": "ultimaker3_extended_extruder_left",
+      "1": "ultimaker3_extended_extruder_right"
+    },
+    "manufacturer": "Ultimaker",
+    "platform": "ultimaker3_platform.obj",
+    "platform_offset": [
+      0,
+      0,
+      0
+    ],
+    "platform_texture": "Ultimaker3Extendedbackplate.png",
+    "preferred_variant": "*aa04*",
+    "quality_definition": "ultimaker3",
+    "variants_name": "Print core",
+    "visible": true
+  },
+  "name": "Ultimaker 3 Extended",
+  "overrides": {
+    "machine_height": {
+      "default_value": 300
+    },
+    "machine_name": {
+      "default_value": "Ultimaker 3 Extended"
+    }
+  },
+  "version": 2
+}
